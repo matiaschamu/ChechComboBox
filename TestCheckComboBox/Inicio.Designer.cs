@@ -1,4 +1,4 @@
-﻿using BibliotecaMAF.Controles.CheckComboBox;
+﻿using BibliotecaMaf.Controles.CheckComboBox;
 
 namespace TestCheckComboBox2
 {
@@ -39,7 +39,7 @@ namespace TestCheckComboBox2
 			this.comboBox1 = new System.Windows.Forms.ComboBox();
 			this.textBox2 = new System.Windows.Forms.TextBox();
 			this.button1 = new System.Windows.Forms.Button();
-			this.combo1 = new BibliotecaMAF.Controles.CheckComboBox.CheckComboBox();
+			this.combo1 = new BibliotecaMaf.Controles.CheckComboBox.CheckComboBox();
 			this.SuspendLayout();
 			// 
 			// buttonAgregar
@@ -161,7 +161,7 @@ namespace TestCheckComboBox2
 			this.combo1.Name = "combo1";
 			this.combo1.Size = new System.Drawing.Size(229, 28);
 			this.combo1.TabIndex = 8;
-			this.combo1.ItemCheck += new BibliotecaMAF.Controles.CheckComboBox.CheckComboBox.SampleEventHandler(this.combo1_ItemCheck);
+			this.combo1.ItemCheck += new BibliotecaMaf.Controles.CheckComboBox.CheckComboBox.SampleEventHandler(this.combo1_ItemCheck);
 			this.combo1.DropDown += new System.EventHandler(this.combo1_DropDown);
 			this.combo1.SelectedIndexChanged += new System.EventHandler(this.combo1_SelectedIndexChanged);
 			this.combo1.SelectionChangeCommitted += new System.EventHandler(this.combo1_SelectionChangeCommitted);
@@ -204,7 +204,7 @@ namespace TestCheckComboBox2
 		private System.Windows.Forms.Button buttonQuitarUltimo;
 		private System.Windows.Forms.Button buttonQuitarTodos;
 		private System.Windows.Forms.TextBox textBoxCantidad;
-		private BibliotecaMAF.Controles.CheckComboBox.CheckComboBox combo1;
+		private BibliotecaMaf.Controles.CheckComboBox.CheckComboBox combo1;
 		private System.Windows.Forms.TextBox textBox1;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.TextBox textBox2;
