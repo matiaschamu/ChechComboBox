@@ -137,7 +137,7 @@ namespace BibliotecaMaf.Controles.CheckComboBox
 				if (base.Text != value)
 				{
 					base.Items.Clear();
-					if (value != "")
+					if (value != "" & value !=null)
 					{
 						base.Items.Add(value);
 						base.Text = value;
